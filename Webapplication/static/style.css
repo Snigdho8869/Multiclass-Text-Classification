@@ -1,0 +1,247 @@
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        padding:10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #666;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+a {
+   color: #4CAF50;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+
+a:hover {
+   text-decoration: underline;
+}
+
+.index-h1 {
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.index-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.about-container {
+        margin: 40px auto;
+        width: 95%;
+       
+}
+
+.about-h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+	text-align: center;
+        padding: 15px;
+        background-color: #333;
+        color: white;
+}
+
+.about-h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.about-p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ 
+.about-img {
+   max-width: 40%;
+   border-radius: 50%;
+   display: block; 
+   margin: 0 auto;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+  
+#contact {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+}
+ 
+.contact-form {
+  background-image: url('https://i.ibb.co/dDH758z/pngtree-blue-abstract-background-business-image-564246.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.contact-h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+}
+
+.contact-input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+}
+
+.contact-textarea{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+ }
+     
+.contact-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+        background-color: #333;
+        border: 2px solid #4CAF50;
+}
+
+.contact-button:focus {
+        outline: none;
+}
+
+.contact-input:focus {
+        outline: none;
+        border: 2px solid #4CAF50;
+}
+
+.contact-textarea:focus {
+        outline: none;
+        border: 2px solid #4CAF50;
+}
+ 
+label {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: left;
+        width: 100%;
+}
+
+
+
+#prediction {
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0 0 0 10px;
+  }
+  
+  .fab {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
