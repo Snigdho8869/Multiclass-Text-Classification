@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+    <style>
+      body {
+        background-color: #f9f9f9;
+      }
+      .container {
+        margin-top: 50px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        animation: fade-in 1s ease-in-out;
+      }
+      .icon {
+        font-size: 80px;
+        color: #4CAF50;
+        animation: rotate 2s infinite linear;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      h1 {
+        margin-top: 40px;
+        font-size: 48px;
+        color: #4CAF50;
+        animation: scale-up 0.6s ease-in-out;
+      }
+      p {
+        font-size: 24px;
+        color: #555;
+        animation: slide-in 0.8s ease-in-out;
+      }
+      a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 30px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border-radius: 30px;
+        font-weight: bold;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        transition: all 0.2s ease-in-out;
+        animation: bounce-in 1s ease-in-out;
+      }
+      a:hover {
+        background-color: #3E8E41;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+        transform: translateY(-3px);
+      }
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes scale-up {
+        from {
+          transform: scale(0.5);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+      @keyframes slide-in {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+      @keyframes bounce-in {
+        from {
+          transform: scale(0.5);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <i class="icon fa fa-check-circle-o"></i>
+      <h1>Thank You!</h1>
+      <p>Your message has been sent.</p>
+      <p>We will get back to you as soon as possible.</p>
+      <a href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="about-body">
+
+    <nav>
+  	<ul>
+	 <li><a href="{{ url_for('index') }}">Home</a></li>
+  	 <li><a href="{{ url_for('about') }}">About</a></li>
+   	 <li><a href="{{ url_for('contact') }}">Contact</a></li>
+  	</ul>
+    </nav>
+
+    <div class="about-container">
+      <h1 class="about-h1">About Text Classification</h1>
+      <p class="about-p">Text classification was a task where I assigned predefined categories or labels to text documents. This is a fundamental problem in natural language processing, and it has many applications such as sentiment analysis, spam detection, topic classification, etc.<br><br>
+
+	To perform text classification with 5 classes, I used both traditional machine learning (ML) and deep learning (DL) models.<br><br>
+
+	For ML models, I used algorithms such as Naive Bayes, Support Vector Machines (SVM), Random Forest, Logistic Regression, Ensemble Learning, AdaBoost, GradientBoosting. These models required feature extraction and selection techniques such as CountVectorizer, TfidfVectorizer.<br><br>
+
+	For DL models, I used architectures such as Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and their variants like LSTM and GRU. These models could learn to extract features and classify text documents end-to-end. I also used pre-trained models like BERT and XLNet to achieve better performance.</p>
+      <img class="about-img" src="https://i.ibb.co/B4FbFzS/me.jpg" alt="Md Zahidul Islam">
+      <h2 class="about-h2">About Md Zahidul Islam</h2>
+      <p class="about-p">I am the developer of this project, and I have a strong background in Information Technology and a keen interest in Machine Learning, Deep Learning, and Federated Learning. I believe that technology has the power to transform lives and make a positive impact on society. I am passionate about using my skills to contribute to projects that make a difference, and I am excited to be working on this important issue.</p>
+      <p class="about-p">You can find me on <a href="https://github.com/Snigdho8869">GitHub</a>, where I shares my projects and contributions to the open-source community.</p>
+    </div>
+
+<footer>
+  <div class="footer-container">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/zahidul.snigdho/" target="_blank">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-square2-512.png" alt="Facebook Icon" width="40" height="40"  style="border-radius: 50%;">
+      </a>
+
+      <a href="https://github.com/Snigdho8869" target="_blank">
+        <img src="https://i.ibb.co/sRB0xx6/download.png" alt="GitHub Profile" width="40" height="40"  style="border-radius: 50%;">
+      </a>
+    </div>
+    <div class="rights-reserved">
+      <p>All Rights Reserved &copy; 2023</p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
