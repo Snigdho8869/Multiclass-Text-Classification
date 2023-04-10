@@ -44,7 +44,7 @@ def resources():
     return render_template('resources.html')
 
 
-@app.route('/suicide-ideation', methods=['POST'])
+@app.route('/text-classification', methods=['POST'])
 def predict():
     data = request.get_json(force=True)
     text = data['text']
@@ -93,4 +93,4 @@ def send_email():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000,debug=True)
