@@ -1,6 +1,17 @@
-# Multiclass Text Classification with Machine Learning and Deep Learning
+# Multiclass Text Classification Project
 
-This repository contains code for implementing various machine learning and deep learning models for multiclass text classification. The models implemented in this repository include support vector machines(SVM), Multinominal naive Bayes, logistic regression, random forests, ensembled learning, adaboost, gradientboosting, convolutional neural networks(CNN), and recurrent neural networks(RNN) an gted recurrent unit(GRU).
+
+## Project Overview
+The goal of this project is to classify text data into predefined categories using a combination of traditional machine learning models and deep learning architectures. The project includes:
+- A **Flask-based web application** for interactive text classification.
+- **Preprocessing** of text data, including cleaning, tokenization, and lemmatization.
+- Training and evaluation of multiple models, including:
+  - Traditional ML models: Logistic Regression, SVM, Naive Bayes, Random Forest, Gradient Boosting, AdaBoost, and an Ensemble model.
+  - Deep learning models: LSTM, GRU, CNN, and a hybrid LSTM+CNN model.
+  - Fine-tuning of transformer-based models: BERT and XLNet using **ktrain**.
+- Visualization of results, including confusion matrices, accuracy plots, and word clouds.
+
+---
 
 # Requirements:
 
@@ -35,10 +46,8 @@ The results of each model on the bbc-text dataset are as follows:
 | BERT | 99.60% |
 | XLNet | 99.46% |
 
-# Webapplication:
 
-This web application for multiclass text classification using machine learning and deep learning would allow users to input text data and receive a prediction of the most likely category or label for that text. 
 
-# Webapplication Interface:
+# Application Interface
 
-<img align="right" alt="interface" width="1000" src="https://i.ibb.co/YRHpWF3/Screenshot-1.png">
+<img src="ui/ui.PNG" alt="Original Image" width="700">
